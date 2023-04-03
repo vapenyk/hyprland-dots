@@ -9,7 +9,7 @@ collection of dot config files for hyprland with a simple install script for a f
 git clone https://github.com/vapenyk/hyprland-dots.git
 ```
 
-## Installing paru
+## Install paru
 ```
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
@@ -17,7 +17,7 @@ cd paru
 makepkg -si
 ```
 
-## You can grab the config files and install packages by hand with this commnad
+## 1) You can grab the config files and install packages by hand with this commnad
 ```
 paru -S hyprland-bin kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako thunar \
@@ -28,4 +28,4 @@ paru -S hyprland-bin kitty waybar-hyprland \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
 ```
 
-Or you can use the attached script `set-hypr` to install everything for you.
+## 2) Or you can use the attached script `set-hypr` to install everything for you.

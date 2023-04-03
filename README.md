@@ -1,9 +1,17 @@
 # hyprland
-collection of dot config files for hyprland with a simple install script for a fresh Arch linux with yay
+collection of dot config files for hyprland with a simple install script for a fresh Arch linux with paru
 
-You can grab the config files and install packages by hand with this commnad
+## Installing paru
 ```
-yay -S hyprland-bin kitty waybar-hyprland \
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
+makepkg -si
+```
+
+## You can grab the config files and install packages by hand with this commnad
+```
+paru -S hyprland-bin kitty waybar-hyprland \
     swaybg swaylock-effects wofi wlogout mako thunar \
     ttf-jetbrains-mono-nerd noto-fonts-emoji \
     polkit-gnome python-requests starship \

@@ -1,6 +1,14 @@
 # hyprland
 collection of dot config files for hyprland with a simple install script for a fresh Arch linux with paru
 
+
+## Install `base-devel` package
+
+## Clone repository
+```
+git clone https://github.com/vapenyk/hyprland-dots.git
+```
+
 ## Installing paru
 ```
 sudo pacman -S --needed base-devel
@@ -20,4 +28,4 @@ paru -S hyprland-bin kitty waybar-hyprland \
     dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland-git
 ```
 
-Or you can use the attached script "set-hypr" to install everything for you.
+Or you can use the attached script `set-hypr` to install everything for you.
